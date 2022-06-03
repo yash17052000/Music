@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Varela+Round&display=swap');
+
+body {
+    background-color: antiquewhite;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    height: 65px;
+    background-color: black;
+    color: white;
+
+}
+
+h1 {
+    font-size: 20px;
+}
+
+li {
+    padding: 0 10px;
+    left: -15px;
+    position: relative;
+    left: -13px;
+}
+
+.brand img {
+    width: 45px;
+    padding: 8px 7px;
+    position: relative;
+
+}
+
+.brand {
+    display: flex;
+    font-size: 1.3rem;
+    font-weight: bold;
+    align-items: center;
+}
+
+.bottom {
+    position: sticky;
+    height: 120px;
+    background-color: black;
+    position: relative;
+    top: 20px;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.icons {
+    position: relative;
+    top: 6px;
+    left: -610px;
+    margin: 0 5px;
+    cursor: pointer;
+}
+
+.con {
+    font-family: 'Varela Round', sans-serif;
+    display: flex;
+    margin: 23px auto;
+    width: 70%;
+    background-color: black;
+    min-height: 68vh;
+    border-radius: 10px;
+    background-image: url(bg.jpg);
+    background-position: 90% 10%;
+    background-size: 800px 550px;
+    background-repeat: no-repeat;
+}
+.songItemContainer{
+    margin-top: 34px;
+}
+
+#myprogressbar {
+    width: 80vw;
+    position: relative;
+    left: 80px;
+    top: -40px;
+    cursor: pointer;
+
+}
+
+.songItem img {
+    /* background-image: url(artworks-1Jhg5yeXC0y7rvAy-ctm9Cg-t500x500.jpg);
+    background-repeat: no-repeat;
+    background-position: 90% 10%;
+     background-size: 400px 100px;
+     background-repeat: no-repeat; */
+    height: 42px;
+    width: 42px;
+    position: relative;
+    left: 20px;
+    border-radius: 34px;
+    margin: 2px -26px;
+}
+
+.songItem {
+    height: 50px;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    color: black;
+    margin: 12px 0;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    left: 20px;
+    border-radius: 34px;
+    padding: 0 14px;
+}
+
+.timestamp {
+    margin: 4px 10px;
+}
+.timestamp i{
+    cursor: pointer;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    padding: 0 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
+    font-family: 'Varela Round', sans-serif;
+
+}
